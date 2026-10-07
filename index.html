@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Wild Gallery | Random Cat Explorer</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                🐾 Wild Gallery
+            </div>
+
+            <div class="api-status">
+
+                <span class="status-indicator"></span>
+
+                <span>
+                    API Connected
+                </span>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Main -->
+
+    <main>
+
+        <!-- Hero -->
+
+        <section class="hero">
+
+            <p class="eyebrow">
+                RANDOM IMAGE EXPLORER
+            </p>
+
+            <h1>
+                Discover your
+                <span>wild side.</span>
+            </h1>
+
+            <p class="hero-description">
+
+                Explore beautiful random cat images
+                with every click. Powered by The Cat API.
+
+            </p>
+
+        </section>
+
+
+        <!-- Gallery -->
+
+        <section class="gallery-section">
+
+
+            <!-- Control Card -->
+
+            <div class="control-card">
+
+                <div class="card-number">
+                    01
+                </div>
+
+                <p class="card-label">
+                    DISCOVER
+                </p>
+
+                <h2>
+                    Find a new friend
+                </h2>
+
+                <p class="card-description">
+
+                    Ready for a surprise?
+                    Generate a completely random
+                    cat image from our collection.
+
+                </p>
+
+
+                <button
+                    id="generate-button"
+                    type="button"
+                >
+
+                    <span>
+                        🐱
+                    </span>
+
+                    Discover Cat
+
+                    <strong>
+                        →
+                    </strong>
+
+                </button>
+
+
+                <div class="info">
+
+                    <span>✦</span>
+
+                    <p>
+                        Every click fetches a fresh image.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Preview Card -->
+
+            <div class="preview-card">
+
+                <div class="preview-header">
+
+                    <div>
+
+                        <p class="card-label">
+                            LIVE PREVIEW
+                        </p>
+
+                        <h2>
+                            Your discovery
+                        </h2>
+
+                    </div>
+
+                   <div id="image-status" class="image-status">
+                     Waiting
+                    </div>
+
+                </div>
+
+
+                <!-- Image Container -->
+
+                <div
+                    id="image-container"
+                    class="image-container"
+                >
+
+                    <div
+                        id="placeholder"
+                        class="placeholder"
+                    >
+
+                        <div class="placeholder-icon">
+                            🐱
+                        </div>
+
+                        <h3>
+                            Nothing here yet
+                        </h3>
+
+                        <p>
+                            Click "Discover Cat"
+                            to reveal your next friend.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Message -->
+
+                <div class="preview-footer">
+
+                    <p id="message">
+                        Ready when you are.
+                    </p>
+
+                    <span>
+                        THE CAT API
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Features -->
+
+        <section class="features">
+
+
+            <article class="feature-card">
+
+                <div class="feature-icon">
+                    ⚡
+                </div>
+
+                <div>
+
+                    <h3>
+                        Fast
+                    </h3>
+
+                    <p>
+                        Fetch a new image
+                        in seconds.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="feature-card">
+
+                <div class="feature-icon">
+                    🔄
+                </div>
+
+                <div>
+
+                    <h3>
+                        Random
+                    </h3>
+
+                    <p>
+                        Every request brings
+                        something new.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="feature-card">
+
+                <div class="feature-icon">
+                    📱
+                </div>
+
+                <div>
+
+                    <h3>
+                        Responsive
+                    </h3>
+
+                    <p>
+                        Designed for desktop
+                        and mobile.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <h3>
+                🐾 Wild Gallery
+            </h3>
+
+            <p>
+                Built with HTML, CSS and JavaScript.
+            </p>
+
+            <span>
+                Images powered by The Cat API
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
